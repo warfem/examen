@@ -11,13 +11,10 @@ class ContactanosController extends Controller
 {
     
 public function index(){
-        return view("index");
+        return view("mail");
     }
 public function store(Request $request){
-        $request->validate([
-            "name1" => "required",
-            "name2" => "required",
-        ]);
+    
     $correo = new ContactanosMailable($request->all());
     Mail::to("fhidalgo@iessonferrer.com")->send($correo);
 

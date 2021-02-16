@@ -11,9 +11,7 @@
 
     <h2>Datos del formulario:</h2>
     <hr>
-    <p ><strong>Ruta: </strong> {{$contacto["ruta"]}}</p>
-    <p ><strong>Tiempo: </strong> {{$contacto["tiempo"]}}</p>
-    <p ><strong>Normas: </strong> {{$contacto["normas"]}}</p>
-    <p ><strong>Precio: </strong> {{$contacto["precio"]}}</p>
+    <p ><strong>Titulo: </strong> {{$contacto["titulo"]}}</p>
+    <p ><strong>Mensaje: </strong> {{$contacto["mensaje"]}}</p>
 </body>
 </html>

@@ -22,5 +22,5 @@ Route::view("mail","mail");
 
 
 /*Falta crear el formulario y darle la ruta en el action*/ 
-Route::get("contactanos",[ContactanosController::class,"index"])->name("contactanos.index");
-Route::get("contactanos",[ContactanosController::class,"store"])->name("contactanos.store");
+Route::get("mail",[ContactanosController::class,"index"])->name("contactanos.index");
+Route::post("mail",[ContactanosController::class,"store"])->name("contactanos.store");
