@@ -74,7 +74,7 @@
         <!--FOOTER-->
         <div class="row text-center" style=" background-color: rgb(230, 145, 84); ">
             <div class="col-md-12 col-xs-12 pt-3 mx-auto">
-                <div class="copytext">&copy; Francisco Hidalgo Aragón DWS  16/02/2021</div>
+                <div class="copytext">&copy; Francisco Hidalgo Aragón 2 DWS  16/02/2021</div>
             </div>
         </div>
     </div>
