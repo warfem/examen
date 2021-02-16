@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ContactanosController;
+use App\Mail\ContactanosMailable;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view("/","index");
+
+
+/*Falta crear el formulario y darle la ruta en el action*/ 
+Route::get("contactanos",[ContactanosController::class,"index"])->name("contactanos.index");
+Route::get("contactanos",[ContactanosController::class,"store"])->name("contactanos.store");
