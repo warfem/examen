@@ -46,10 +46,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Migraciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Seeders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mail</a>
               </li>
             </ul>
             <form class="d-flex">
@@ -60,14 +63,21 @@
         </div>
       </nav>
     
-      <div class="container">
+      <div class="container mt-5 pt-5">
 
         @yield('contenido')
 
 
       </div>
     
-
+      <div class="container-fluid">
+        <!--FOOTER-->
+        <div class="row text-center" style=" background-color: rgb(230, 145, 84); ">
+            <div class="col-md-12 col-xs-12 pt-3 mx-auto">
+                <div class="copytext">&copy; Francisco Hidalgo Aragón DWS  16/02/2021</div>
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
