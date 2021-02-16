@@ -18,6 +18,6 @@ public function store(Request $request){
     $correo = new ContactanosMailable($request->all());
     Mail::to("fhidalgo@iessonferrer.com")->send($correo);
 
-    return redirect()->route("index")->with("info","Mensaje enviado");
+    return "Mensaje enviado";
     }
 }

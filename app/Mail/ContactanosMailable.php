@@ -21,7 +21,7 @@ class ContactanosMailable extends Mailable
      */
     public function __construct($contacto)
     {
-        $this->$contacto;
+        $this->contacto = $contacto;
     }
 
     /**

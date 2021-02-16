@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view("/","index");
+Route::view("index","index");
 Route::view("migraciones","migraciones");
 Route::view("seeders","seeders");
 Route::view("mail","mail");

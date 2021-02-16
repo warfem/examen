@@ -21,11 +21,5 @@
         <button type="submit" class=" btn btn-primary mb-2">Añadir</button>
       
     </form>
-    
-    @if (session('info'))
-        <script>
-            alert("{{session('info')}}");
-        </script>
-    @endif
 </div>
 @endsection
