@@ -16,6 +16,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view("/","index");
+Route::view("migraciones","migraciones");
+Route::view("seeders","seeders");
+Route::view("mail","mail");
 
 
 /*Falta crear el formulario y darle la ruta en el action*/ 

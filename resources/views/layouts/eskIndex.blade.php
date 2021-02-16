@@ -46,13 +46,13 @@
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Migraciones</a>
+                <a class="nav-link" href="migraciones">Migraciones</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Seeders</a>
+                <a class="nav-link " href="seeders" tabindex="-1" >Seeders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Mail</a>
+                <a class="nav-link " href="mail" tabindex="-1" >Mail</a>
               </li>
             </ul>
             <form class="d-flex">
